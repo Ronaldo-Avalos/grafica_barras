@@ -1,50 +1,12 @@
-<<<<<<< HEAD
-![](img/oco-logo.png)
-
-# Gráfico de Barras
-
-El propósito de este ejercicio es conocer tus habilidades de programación, puedes utilizar el lenguaje que prefieras. Tu solución deberá mostrar el uso de los principios de la programación orientada a objetos. Es decir, deberá estar organizado en clases con métodos y atributos.
-
-
-## Requerimientos funcionales
-
-### Parte 1
-Si los datos son 1, 2, 3, 4, 5, "+" la salida deberá ser algo parecido a:
-```
-│    +
-│   ++
-│  +++
-│ ++++
-│+++++
-└─────
- ```
-(cada digito conmo parametro sera la altlulra de su barra)
-
-### Ejercicio 2
-
-Modifica el programa para soportar un número variable de ancho y alto para cada dígito.
-Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
-
-```
-│    *
-│    *
-│    *
-│*   *
-│*  **
-│*  **
-└─────
- ```
-=======
 ![ICI LOGO](img/ici_logo.png)
 
-# Gráfico de Barras
+# Gráfica de Barras
 
-El propósito de este ejercicio es conocer tus habilidades de programación, puedes utilizar el lenguaje que prefieras. Tu solución deberá mostrar el uso de los principios de la programación orientada a objetos. Es decir, deberá estar organizado en clases con métodos y atributos.
+El propósito de este programa es que mediante una función que reciba varios argumentos de tipo entero y un caracter de relleno, genere una gráfica en modo texto en la terminal.
 
 
 ## Requerimientos funcionales
 
-### Parte 1
 Si los datos son 1, 2, 3, 4, 5, "+" la salida deberá ser algo parecido a:
 ```
 │    +
@@ -54,10 +16,9 @@ Si los datos son 1, 2, 3, 4, 5, "+" la salida deberá ser algo parecido a:
 │+++++
 └─────
  ```
-(cada digito conmo parametro sera la altlulra de su barra)
+(cada digito conmo parametro se convertira en la altura)
 
-### Ejercicio 2
-
+### ejemplo 2
 Modifica el programa para soportar un número variable de ancho y alto para cada dígito.
 Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
 
@@ -73,9 +34,8 @@ Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
 
  ## pantallazos de su ejecución con al menos dos series de argumentos distintos.
 
-## Resultado 1
- ```GO
- 
+### Resultado 1
+``` 
 func main() {
 
 	var num = []int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
@@ -85,23 +45,9 @@ func main() {
 
 }
  ```
- ### Resultado de terminal
- ```
- PS C:\Users\Admin\workspace\Golang\grafica_barras> go run grafica_barras.go
- 
- |█
- |██
- |███
- |████
- |█████
- |██████
- |███████
- |████████
- |█████████
- |██████████
-  ¯¯¯¯¯¯¯¯¯¯
- ```
- ## Resultado 2
+ ### Resultado en terminal
+ ![](img/cap1.png)
+ ### Resultado 2
  ```
  func main() {
 
@@ -112,18 +58,7 @@ func main() {
 
 }
 ```
-### Resultado de terminal
-```
-PS C:\Users\Admin\workspace\Golang\grafica_barras> go run grafica_barras.go
-       
- |     ▍
- | ▍   ▍
- | ▍  ▍▍
- |▍▍  ▍▍
- |▍▍  ▍▍
- |▍▍▍ ▍▍
- |▍▍▍ ▍▍▍
-  ¯¯¯¯¯¯¯
-```
+### Resultado en terminal
+![](img/cap2.png)
 
 >>>>>>> f42bce6 (addimg)
