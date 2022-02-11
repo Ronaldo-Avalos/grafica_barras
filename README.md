@@ -32,7 +32,7 @@ Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
 └─────
  ```
 
- ## pantallazos de su ejecución con al menos dos series de argumentos distintos.
+ ### Pantallazos de su ejecución con al menos dos series de argumentos distintos.
 
 ### Ejemplo de entrada 1
 
