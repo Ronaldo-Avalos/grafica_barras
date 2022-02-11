@@ -34,8 +34,9 @@ Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
 
  ## pantallazos de su ejecución con al menos dos series de argumentos distintos.
 
-### Resultado 1
-``` 
+### Ejemplo de entrada 1
+
+```GO
 func main() {
 
 	var num = []int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
@@ -45,10 +46,12 @@ func main() {
 
 }
  ```
- ### Resultado en terminal
+ ### Salida en terminal
+
  ![](img/cap1.png)
- ### Resultado 2
- ```
+ ### Ejemplo de entrada 2
+
+ ```Go
  func main() {
 
 	var num = []int{4, 6, 2, 0, 5, 7, 1}
@@ -58,7 +61,8 @@ func main() {
 
 }
 ```
-### Resultado en terminal
+### Salida en terminal
+
 ![](img/cap2.png)
 
 >>>>>>> f42bce6 (addimg)
