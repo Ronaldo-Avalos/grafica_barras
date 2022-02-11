@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 
-	var num = []int{3, 0, 2, 6}
-	var symbol = "+"
+	var num = []int{4, 6, 2, 0, 5, 7, 1}
+	var symbol = "▍"
 	numax := findMax(num)
 	grafica(numax, num, symbol)
 
@@ -24,7 +24,8 @@ func findMax(num []int) (numax int) {
 func grafica(numax int, num []int, symbol string) {
 	for i := numax; i >= 0; i-- {
 		if i != numax {
-			fmt.Print("|")
+			fmt.Print(" |")
+
 		}
 		//range devuelve el índice del elemento como un número entero.
 		for _, values := range num {
@@ -36,8 +37,9 @@ func grafica(numax int, num []int, symbol string) {
 		}
 		fmt.Println()
 	}
-	fmt.Print(" ")
+	fmt.Print("  ")
 	for range num {
 		fmt.Print("¯")
+
 	}
 }

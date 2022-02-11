@@ -70,4 +70,60 @@ Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
 │*  **
 └─────
  ```
+
+ ## pantallazos de su ejecución con al menos dos series de argumentos distintos.
+
+## Resultado 1
+ ```GO
+ 
+func main() {
+
+	var num = []int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+	var symbol = "█"
+	numax := findMax(num)
+	grafica(numax, num, symbol)
+
+}
+ ```
+ ### Resultado de terminal
+ ```
+ PS C:\Users\Admin\workspace\Golang\grafica_barras> go run grafica_barras.go
+ 
+ |█
+ |██
+ |███
+ |████
+ |█████
+ |██████
+ |███████
+ |████████
+ |█████████
+ |██████████
+  ¯¯¯¯¯¯¯¯¯¯
+ ```
+ ## Resultado 2
+ ```
+ func main() {
+
+	var num = []int{4, 6, 2, 0, 5, 7, 1}
+	var symbol = "▍"
+	numax := findMax(num)
+	grafica(numax, num, symbol)
+
+}
+```
+### Resultado de terminal
+```
+PS C:\Users\Admin\workspace\Golang\grafica_barras> go run grafica_barras.go
+       
+ |     ▍
+ | ▍   ▍
+ | ▍  ▍▍
+ |▍▍  ▍▍
+ |▍▍  ▍▍
+ |▍▍▍ ▍▍
+ |▍▍▍ ▍▍▍
+  ¯¯¯¯¯¯¯
+```
+
 >>>>>>> f42bce6 (addimg)
