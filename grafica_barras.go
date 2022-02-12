@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 
-	var num = []int{4, 6, 2, 0, 5, 7, 1}
-	var symbol = "▍"
+	var num = []int{3,0,2,6}
+	var symbol = "*"
 	numax := findMax(num)
 	grafica(numax, num, symbol)
 
