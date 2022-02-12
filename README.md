@@ -6,7 +6,7 @@ El propósito de este programa es que mediante una función que reciba varios ar
 
 
 ## Requerimientos funcionales
-
+### ejemplo 1
 Si los datos son 1, 2, 3, 4, 5, "+" la salida deberá ser algo parecido a:
 ```
 │    +
@@ -16,11 +16,10 @@ Si los datos son 1, 2, 3, 4, 5, "+" la salida deberá ser algo parecido a:
 │+++++
 └─────
  ```
-(cada digito conmo parametro se convertira en la altura)
+(cada parametro se convertira en la altura de la barra)
 
 ### ejemplo 2
-Modifica el programa para soportar un número variable de ancho y alto para cada dígito.
-Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
+Si los datos son 3, 0, 2, 6 "*" la salida deberá ser algo parecido a:
 
 ```
 │    *
