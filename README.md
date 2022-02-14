@@ -1,5 +1,7 @@
 ![ICI LOGO](img/ici_logo.png)
 
+##Fecha: 11/02/2022
+
 # Gráfica de Barras
 
 El propósito de este programa es que mediante una función que reciba varios argumentos de tipo entero y un caracter de relleno, genere una gráfica en modo texto en la terminal.
