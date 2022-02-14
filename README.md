@@ -1,6 +1,6 @@
 ![ICI LOGO](img/ici_logo.png)
 
-##Fecha: 11/02/2022
+## Fecha: 11/02/2022
 
 # Gráfica de Barras
 
